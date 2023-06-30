@@ -1,6 +1,6 @@
-function letterCombinations(input_digit) {
+function letterCombinations(input) {
   //Complete the function
-// st    
+ 
 	let table={
 		"2": "abc",
 		"3": "def",
@@ -28,9 +28,8 @@ function letterCombinations(input_digit) {
 	solve(0, "");
  
 	return(solution);
-
-	// se
+ 
 	
 }
-
+ 
 module.exports = letterCombinations;
